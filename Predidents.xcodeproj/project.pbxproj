@@ -13,6 +13,7 @@
 		817E258F1E956BC700F6A0A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817E258D1E956BC700F6A0A8 /* Main.storyboard */; };
 		817E25911E956BC700F6A0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817E25901E956BC700F6A0A8 /* Assets.xcassets */; };
 		817E25941E956BC700F6A0A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817E25921E956BC700F6A0A8 /* LaunchScreen.storyboard */; };
+		817E259C1E95726C00F6A0A8 /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 817E259B1E95726C00F6A0A8 /* PresidentList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		817E25901E956BC700F6A0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		817E25931E956BC700F6A0A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		817E25951E956BC700F6A0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817E259B1E95726C00F6A0A8 /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PresidentList.plist; path = "../../../beg-iphone-dev-w-swift-3-master/11_AllSource/11 - Presidents Data/PresidentList.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		817E25861E956BC700F6A0A8 /* Predidents */ = {
 			isa = PBXGroup;
 			children = (
+				817E259B1E95726C00F6A0A8 /* PresidentList.plist */,
 				817E25871E956BC700F6A0A8 /* AppDelegate.swift */,
 				817E25891E956BC700F6A0A8 /* MasterViewController.swift */,
 				817E258B1E956BC700F6A0A8 /* DetailViewController.swift */,
@@ -129,6 +132,7 @@
 				817E25941E956BC700F6A0A8 /* LaunchScreen.storyboard in Resources */,
 				817E25911E956BC700F6A0A8 /* Assets.xcassets in Resources */,
 				817E258F1E956BC700F6A0A8 /* Main.storyboard in Resources */,
+				817E259C1E95726C00F6A0A8 /* PresidentList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
